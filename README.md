@@ -1,4 +1,4 @@
-# JavaScript Project Starter
+# React Project Starter
 
 ### My personal starting point for React projects
 
@@ -12,7 +12,7 @@ This project provides a bootstrap for:
 
 ## Getting started
 
-Here's a handy snippet you can add to your `.bash_profile` to create new tools easily:
+Here's a handy snippet you can add to your `.bash_profile` to create new apps easily:
 
 ```
 function new_react_project() {
@@ -39,7 +39,7 @@ Painlessly write your code as beautiful ES6!  Thanks to [Webpack](https://webpac
 
 ## Running tests (written in Mocha)
 
-Code should be tested!  [Mocha](https://mochajs.org/) is a perennial test framework among JavaScript developers, so this project uses that.
+Code should be tested!  [Mocha](https://mochajs.org/) is a perennial test framework among JavaScript developers, so this project uses that and [Enzyme](http://airbnb.io/enzyme/).
 
 ```
 # run tests in the CLI
@@ -67,7 +67,7 @@ This project configures Webpack to generate [source maps](https://www.html5rocks
 npm start
 ```
 
-From here, you can fire up your browser's dev tools and set breakpoints, step through code, etc.  You can run the app at <a href="http://localhost:9123">http://localhost:9123</a>, or run the tests at <a href="http://localhost:9123/test.html">http://localhost:9123/test.html</a>.
+From here, you can fire up your browser's dev tools and set breakpoints, step through code, etc.  You can run the app at <a href="http://localhost:9123">http://localhost:9123</a>, or run the tests at <a href="http://localhost:9123/test/">http://localhost:9123/test/</a>.
 
 ## A build process
 
