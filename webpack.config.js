@@ -1,3 +1,4 @@
+/* global __dirname */
 const commonConfig = require('./webpack.common.config');
 const path = require('path');
 const Webpack = require('webpack');
@@ -12,13 +13,10 @@ module.exports = Object.assign(commonConfig, {
   mode: 'production',
   output: {
     path: path.join(__dirname, `${dist}`),
-    filename: `app.js`,
+    filename: 'app.js',
     library: `${name}`,
     libraryTarget: 'umd',
-    umdNamedDefine: true
+    umdNamedDefine: true,
   },
-  plugins: [
-    new CleanWebpackPlugin([ dist ]),
-    new Webpack.BannerPlugin(version),
-  ]
+  plugins: [new CleanWebpackPlugin([dist]), new Webpack.BannerPlugin(version)],
 });
