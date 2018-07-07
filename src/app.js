@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './styles/index.sass';
 
 export class App extends Component {
   render() {
