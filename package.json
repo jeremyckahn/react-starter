@@ -30,6 +30,7 @@
     "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
     "concurrently": "^3.6.0",
+    "css-loader": "^1.0.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^5.0.1",
@@ -47,14 +48,19 @@
     "karma-webpack": "^3.0.0",
     "live-server": "^1.2.0",
     "mocha": "^5.2.0",
+    "node-sass": "^4.9.1",
     "nodemon": "^1.17.5",
     "prettier": "^1.13.7",
     "raf": "^3.4.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "compass-mixins": "^0.12.10",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   }
