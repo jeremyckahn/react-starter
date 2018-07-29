@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = Object.assign(commonConfig, {
   entry: {
     tests: './test/index.js',
-    demo: './demo/index.js',
+    app: './index.js',
   },
   output: {
     path: path.join(__dirname, 'dist'),
