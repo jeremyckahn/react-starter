@@ -13,7 +13,7 @@
     "postversion": "git push && git push --tags && npm run deploy",
     "precommit": "npm test && npm run lint",
     "prepush": "npm test && npm run lint",
-    "prettier": "prettier --single-quote --trailing-comma es5 '{src,test}/**/*.js' --write",
+    "prettier": "prettier '{src,test}/**/*.js' --write",
     "preversion": "npm test",
     "start": "webpack-dev-server --config webpack.test.config.js",
     "lint": "eslint src test webpack.*",
